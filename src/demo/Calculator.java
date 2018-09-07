@@ -6,22 +6,16 @@ import javax.swing.*;
 import java.util.Vector;
  
 public class Calculator {
- 
-    // 操作数1，为了程序的安全，初值一定设置，这里我们设置为0。
+     // 操作数1，为了程序的安全，初值一定设置，这里我们设置为0。
     String str1 = "0"; 
- 
-    // 操作数2
+     // 操作数2
     String str2 = "0"; 
- 
-    // 运算符
+     // 运算符
     String signal = "+"; 
- 
-    // 运算结果
+     // 运算结果
     String result = "";
- 
-    // 以下k1至k2为状态开关
- 
-    // 开关1用于选择输入方向，将要写入str1或str2
+     // 以下k1至k2为状态开关
+     // 开关1用于选择输入方向，将要写入str1或str2
     int k1 = 1;
     // 开关2用于记录符号键的次数，如果 k2>1 说明进行的是 2+3-9+8 这样的多符号运算
     int k2 = 1;
@@ -129,12 +123,9 @@ public class Calculator {
                     result_TextField.setText(str1);
  
                 } else if (k1 == 2) {
-                    if (k4 == 1) {
-                        str2 = "";
- 
-                        // 还原开关k5状态
-                        k5 = 1; 
-                    }
+                    if (k4 == 1) {str2 = "";// 还原开关k5状态
+                    k5 = 1; 
+                    	}
                     str2 = str2 + ss;
                     k4 = k4 + 1;
                     result_TextField.setText(str2);
