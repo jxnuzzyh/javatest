@@ -57,6 +57,7 @@ public class Calculator {
  
         // 为按钮设置等效键，即可以通过对应的键盘按键来代替点击它
         button0.setMnemonic(KeyEvent.VK_0);
+        button1.setMnemonic(KeyEvent.VK_1);
         // 其它等效键省略，你可以自行补充完整
  
         // 设置文本框为右对齐，使输入和结果都靠右显示
@@ -85,8 +86,8 @@ public class Calculator {
  
         JPanel pan2 = new JPanel();
         pan2.setLayout(new BorderLayout());
-        pan2.add(result_TextField, BorderLayout.WEST);
-        pan2.add(clear_Button, BorderLayout.EAST);
+        pan2.add(result_TextField, BorderLayout.EAST);
+        pan2.add(clear_Button, BorderLayout.WEST);
  
         // 设置主窗口出现在屏幕上的位置
         frame.setLocation(300, 200);
@@ -95,7 +96,7 @@ public class Calculator {
         frame.getContentPane().setLayout(new BorderLayout());
         frame.getContentPane().add(pan2, BorderLayout.NORTH);
         frame.getContentPane().add(pan, BorderLayout.CENTER);
- 
+        
         frame.pack();
         frame.setVisible(true);
  
@@ -152,10 +153,12 @@ public class Calculator {
                     int a = vt.size();
                     JButton c = (JButton) vt.get(a - 2);
  
-                    if (!(c.getText().equals("+"))
-                            && !(c.getText().equals("-"))
-                            && !(c.getText().equals("*"))
-                            && !(c.getText().equals("/")))
+                    if (true
+                    		//!(c.getText().equals("+"))
+                            //&& !(c.getText().equals("-"))
+                            //&& !(c.getText().equals("*"))
+                           // && !(c.getText().equals("/"))
+                        )
  
                     {
                         cal();
