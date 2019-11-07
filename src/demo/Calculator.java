@@ -30,7 +30,7 @@ public class Calculator {
  
     @SuppressWarnings("rawtypes")
     Vector vt = new Vector(20, 10);
- 
+   
     // 声明各个UI组件对象并初始化
     JFrame frame = new JFrame("Calculator");
     JTextField result_TextField = new JTextField(result, 20);
@@ -54,7 +54,7 @@ public class Calculator {
  
     // 计算机类的构造器
     public Calculator() {
- 
+    	System.out.println(k1);
         // 为按钮设置等效键，即可以通过对应的键盘按键来代替点击它
         button0.setMnemonic(KeyEvent.VK_0);
         button1.setMnemonic(KeyEvent.VK_1);
@@ -153,16 +153,17 @@ public class Calculator {
                     int a = vt.size();
                     JButton c = (JButton) vt.get(a - 2);
  
-                    if (true
-                    		//!(c.getText().equals("+"))
-                            //&& !(c.getText().equals("-"))
-                            //&& !(c.getText().equals("*"))
-                           // && !(c.getText().equals("/"))
+                    if (
+                    		!(c.getText().equals("+"))
+                            && !(c.getText().equals("-"))
+                            && !(c.getText().equals("*"))
+                           && !(c.getText().equals("/"))
                         )
  
                     {
                         cal();
                         str1 = result;
+                        System.out.println(str1);
                         // 开关 k1 为 1 时，向数 1 写值，为2时向数2写
                         k1 = 2;
                         k5 = 1;
@@ -180,7 +181,8 @@ public class Calculator {
         class Listener_clear implements ActionListener {
             @SuppressWarnings("unchecked")
             public void actionPerformed(ActionEvent e) {
-                store = (JButton) e.getSource();
+               
+            	store = (JButton) e.getSource();
                 vt.add(store);
                 k5 = 1;
                 k2 = 1;

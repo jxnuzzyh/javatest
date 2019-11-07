@@ -2,38 +2,19 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-bin-4.0.0-20180907.zip"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-ooxml-3.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-ooxml-3.5-FINAL.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-examples-4.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-excelant-4.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-ooxml-schemas-4.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-scratchpad-4.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-codec-1.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-collections4-4.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/commons-math3-3.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jaxb-api-2.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jaxb-core-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jaxb-impl-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/poi-4.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jxl-2.6.12.jar/jxl-2.6.12.jar"/>
-	<classpathentry kind="lib" path="mylib/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="mylib/commons-codec-1.11.jar"/>
-	<classpathentry kind="lib" path="mylib/commons-collections4-4.2.jar"/>
-	<classpathentry kind="lib" path="mylib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="mylib/commons-math3-3.6.1.jar"/>
-	<classpathentry kind="lib" path="mylib/jacorb.jar"/>
-	<classpathentry kind="lib" path="mylib/jaxb-api-2.3.0.jar"/>
-	<classpathentry kind="lib" path="mylib/jaxb-core-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="mylib/jaxb-impl-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="mylib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="mylib/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="mylib/jxl-2.6.12.jar"/>
-	<classpathentry kind="lib" path="mylib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="mylib/poi-4.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/activation-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/commons-codec-1.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/commons-collections4-4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/commons-math3-3.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jacorb.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jaxb-api-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jstl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/jxl-2.6.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="mylib/poi-4.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
